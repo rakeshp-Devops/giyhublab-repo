@@ -1,0 +1,160 @@
+/* ===========================
+   Global Styles
+   =========================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #f4f6f9;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* ===========================
+   Header Styles
+   =========================== */
+header {
+  background-color: #0a4275;
+  color: #fff;
+  padding: 15px 30px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+header p {
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+/* ===========================
+   Navigation Bar
+   =========================== */
+nav {
+  background-color: #08345c;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ffcc00;
+}
+
+/* ===========================
+   Main Content
+   =========================== */
+.container {
+  max-width: 1100px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+.container h2 {
+  margin-bottom: 15px;
+  color: #0a4275;
+}
+
+/* ===========================
+   Buttons
+   =========================== */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  background-color: #0a4275;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #062f55;
+}
+
+/* ===========================
+   Form Styles
+   =========================== */
+form {
+  margin-top: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+/* ===========================
+   Footer Section
+   =========================== */
+footer {
+  margin-top: 40px;
+  padding: 15px;
+  background-color: #0a4275;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* ===========================
+   Media Queries
+   =========================== */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 22px;
+  }
+
+  nav a {
+    display: block;
+    margin: 8px 0;
+  }
+
+  .container {
+    padding: 15px;
+  }
+}
+
+/* ===========================
+   MERGE PRACTICE SECTION
+   Modify this in different branches
+   =========================== */
+.merge-demo {
+  background-color: #eeeeee;
+  padding: 15px;
+  border: 1px dashed #aaa;
+  text-align: center;
+  font-size: 16px;
+}
+
+/* Change this background in Branch-A to lightblue */
+/* Change this background in Branch-B to lightgreen */
